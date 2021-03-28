@@ -18,9 +18,7 @@ daylow = float(soup.findAll("span", {"class": "t-text -right"})[2].text)
 threshold=3.9703
 
 
-#Setting the email settings
-gmail_user = 'simonas.audickas@gmail.com'
-gmail_password = 'svedas1234'
+
     
 sent_from = "Simonas Audickas <simonas.audickas@gmail.com"
 to = ['info@teipsiko.lt']
